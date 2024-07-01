@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./public/main.css" />
+    <script src="./public/main.js"></script>
+    <title>Dicee</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Dicee</h1>
+      <h3>Press <kbd>Enter</kbd> to roll</h3>
+    </header>
+    <main>
+      <!-- text to show the current results/status of the game -->
+      <div class="result">
+        <h2 class="text show">Let's roll some dices 🎲.</h2>
+        <h2 class="text">Player 1️⃣ has won 🥇.</h2>
+        <h2 class="text">Player 2️⃣ has won 🏅.</h2>
+        <h2 class="text">It's a tie! Roll again 🚀.</h2>
+      </div>
+      <!-- dices -->
+      <section class="dices">
+        <!-- player one dices-->
+        <div class="player-one">
+          <h3>Player 1</h3>
+          <div class="dice empty show"></div>
+          <div class="dice one">
+            <div class="dot"></div>
+          </div>
+          <div class="dice two">
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice three">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice four">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice five">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice six">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <!-- player two dices -->
+        <div class="player-two">
+          <h3>Player 2</h3>
+          <div class="dice empty show"></div>
+          <div class="dice one">
+            <div class="dot"></div>
+          </div>
+          <div class="dice two">
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice three">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice four">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice five">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="dice six">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </section>
+      <!-- button to roll the dices -->
+      <button id="btn" class="keyup">Roll Me</button>
+    </main>
+    <footer>&copy; 2024</footer>
+  </body>
+
+</html>
